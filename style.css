@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+header {
+    background: url(./images/foto.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -35px;
+    position: relative;
+}
+
+.headerbox {
+    margin: 30px;
+    color: #111;
+    /* left: 36px; */
+    position: relative;
+    width: 750px;
+    bottom: -250px;
+    font-size: 25px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    mix-blend-mode: difference;
+
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    left: 0px;
+}
+
+.left-block {
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: -20px;
+    padding: 10px;
+    background: #fff8ee;
+    border: 2px solid #cdcdcd;
+    box-shadow: 0 10px 12px #bcbbbb;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    /* Прибирає кружечки */
+    gap: 10px;
+    /* Відстань між пунктами */
+    padding: 0;
+    margin: 0;
+}
+
+.right-block {
+    width: 625px;
+    height: auto;
+    padding: 10px;
+    background: #fff8ee;
+    position: relative;
+    border: 2px solid #cdcdcd;
+    box-shadow: 0 10px 12px #bcbbbb;
+}
+
+.box-img img {
+    border: 2px solid #cdcdcd;
+}
+
+section {
+    width: 635px;
+    margin: 20px 20px 0 0;
+}
+
+main {
+    /* background: #eaeaea; */
+    margin: 150px 0 150px 0;
+}
+
+.formbutton {
+    padding: 5px;
+    width: 163px;
+    background: #ffffff;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    box-shadow: 0 10px 12px #bcbbbb;
+}
+
+.bg-box-0,
+.bg-box1,
+.bg-box-2 {
+    width: 100%;
+    height: 400px;
+    
+}
+.bg-box-0,
+.bg-box1,
+.bg-box-2, h1 {
+    text-align: center;
+    top: 50%;
+    position: relative;
+    color: #fff;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-box-0 {
+    background: url(images/ford.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg-box1 {
+    background: url(images/mazda.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg-box-2 {
+    background: url(images/volvo.png);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript окно</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerbox">
+            <h1>Всесвітні автомобілі</h1>
+            <h2 style="color: #fff;">Незалежна наукова стаття про відомі автомобілі по всьому світу.</h2>
+            <p style="color: #fff;">Автомобілі є невід’ємною частиною сучасного світу, відіграючи важливу роль у
+                транспорті, економіці та
+                культурі різних країн.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="conteiner">
+            <div class="left-block">
+                <form name="forma13">
+                    <h2>Переглянути популярні автомобілі:</h2><br>
+                    <input class="formbutton" type="button" value="ford" onclick="openCar('ford')" />
+                    <input class="formbutton" type="button" value="mazda" onclick="openCar('mazda')" />
+                    <input class="formbutton" type="button" value="volvo" onclick="openCar('volvo')" />
+                </form><br><br>
+
+                <form name="forma1">
+                    <textarea name="desc" cols="63" rows="4" style="padding: 10px;"></textarea>
+                </form>
+                <ul class="list">
+                    <li onmouseover="schowDesc(forma1, 'Ford — американський бренд,'+' відомий доступними та надійними автомобілями.');"
+                        onmouseout="remove(forma1);"><strong>Ford</strong></li>
+                    <li onmouseover="schowDesc(forma1, 'Mazda — японський виробник, що поєднує інновації з драйверським задоволенням.');"
+                        onmouseout="remove(forma1);"><strong>Mazda</strong></li>
+                    <li onmouseover="schowDesc(forma1, 'Volvo — шведський бренд, символ безпеки, якості та скандинавського стилю.');"
+                        onmouseout="remove(forma1);"><strong>Volvo</strong></li>
+                </ul>
+                <script src="script-autos.js"></script>
+
+            </div>
+
+            <div class="right-block">
+                <div class="box-img">
+                    <img src="./images/image.png" alt="">
+                </div>
+                <section>
+                    <h3>Історія автомобілів</h3>
+                    <p>Перші автомобілі з'явилися наприкінці XIX століття і стали важливим кроком у розвитку людської
+                        цивілізації. Від парових машин до сучасних електрокарів — автомобільна промисловість пройшла
+                        вражаючий шлях.</p>
+                </section>
+                <section>
+                    <h3>Відомі бренди світу</h3>
+                    <p>Такі компанії, як Ferrari, Toyota, Mercedes-Benz та Ford, стали символами інновацій, якості та
+                        стилю,
+                        визначаючи тренди в автомобільному світі на десятиліття вперед.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
