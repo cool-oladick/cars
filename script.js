@@ -9,7 +9,7 @@
 //   }
 
 function openCar(car) {
-    window.open(car + ".html", car, "width=400,height=300");
+    window.open(car + ".html", car, "width=300,height=300");
 }
 
 function openCar(url, name, width, height) {

@@ -20,28 +20,6 @@
 
     <main>
         <div class="conteiner">
-            <div class="left-block">
-                <form name="forma13">
-                    <h2>Переглянути популярні автомобілі:</h2><br>
-                    <input class="formbutton" type="button" value="ford" onclick="openCar('ford')" />
-                    <input class="formbutton" type="button" value="mazda" onclick="openCar('mazda')" />
-                    <input class="formbutton" type="button" value="volvo" onclick="openCar('volvo')" />
-                </form><br><br>
-
-                <form name="forma1">
-                    <textarea name="desc" cols="63" rows="4" style="padding: 10px;"></textarea>
-                </form>
-                <ul class="list">
-                    <li onmouseover="schowDesc(forma1, 'Ford — американський бренд,'+' відомий доступними та надійними автомобілями.');"
-                        onmouseout="remove(forma1);"><strong>Ford</strong></li>
-                    <li onmouseover="schowDesc(forma1, 'Mazda — японський виробник, що поєднує інновації з драйверським задоволенням.');"
-                        onmouseout="remove(forma1);"><strong>Mazda</strong></li>
-                    <li onmouseover="schowDesc(forma1, 'Volvo — шведський бренд, символ безпеки, якості та скандинавського стилю.');"
-                        onmouseout="remove(forma1);"><strong>Volvo</strong></li>
-                </ul>
-                <script src="script-autos.js"></script>
-
-            </div>
 
             <div class="right-block">
                 <div class="box-img">
@@ -59,6 +37,29 @@
                         стилю,
                         визначаючи тренди в автомобільному світі на десятиліття вперед.</p>
                 </section>
+            </div>
+
+            <div class="left-block">
+                <form name="forma13">
+                    <h2>Переглянути популярні автомобілі:</h2><br>
+                    <input class="formbutton" type="button" value="ford" onclick="openCar('ford')" />
+                    <input class="formbutton" type="button" value="mazda" onclick="openCar('mazda')" />
+                    <input class="formbutton" type="button" value="volvo" onclick="openCar('volvo')" />
+                </form><br><br>
+
+                <form name="forma1">
+                    <textarea name="desc" cols="63" rows="4" style="padding: 10px;"></textarea>
+                </form>
+                <ul class="list">
+                    <li onmouseover="showDesc(forma1, 'Ford — американський бренд,'+' відомий доступними та надійними автомобілями.');"
+                        onmouseout="remove(forma1);"><strong>Ford</strong></li>
+                    <li onmouseover="showDesc(forma1, 'Mazda — японський виробник, що поєднує інновації з драйверським задоволенням.');"
+                        onmouseout="remove(forma1);"><strong>Mazda</strong></li>
+                    <li onmouseover="showDesc(forma1, 'Volvo — шведський бренд, символ безпеки, якості та скандинавського стилю.');"
+                        onmouseout="remove(forma1);"><strong>Volvo</strong></li>
+                </ul>
+                <script src="script-autos.js"></script>
+
             </div>
         </div>
     </main>

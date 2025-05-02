@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-body {}
-
 header {
     background: url(./images/foto.png);
     width: 100%;
@@ -35,15 +33,18 @@ header h1 {
 
 .conteiner {
     display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
     justify-content: space-around;
-    left: 0px;
+    /* left: 0px; */
 }
 
 .left-block {
-    width: 500px;
+    width: 625px;
     height: auto;
     position: relative;
-    left: -20px;
+    /* left: -20px; */
     padding: 10px;
     background: #fff8ee;
     border: 2px solid #cdcdcd;
